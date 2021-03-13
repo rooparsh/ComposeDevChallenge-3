@@ -13,16 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.example.androiddevchallenge
 
-import androidx.compose.ui.graphics.Color
-
-val pink100 = Color(0xFFFFF1F1)
-val pink900 = Color(0xFF3F2C2C)
-val green900 = Color(0xFF2D3B2D)
-val green300 = Color(0xFFB8C9B8)
-// grayscale
-val white = Color(0xFFFFFFFF)
-val white850 = Color.White.copy(alpha = 0.85f)
-val white150 = Color.White.copy(alpha = 0.15f)
-val gray = Color(0xFF232323)
+sealed class Navigation(val title: String) {
+    object WelcomeScreen : Navigation("welcome")
+    object LoginScreen : Navigation("login")
+    object HomeScreen : Navigation("home")
+}

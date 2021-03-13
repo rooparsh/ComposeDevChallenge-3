@@ -8,7 +8,7 @@
 This app is a submission for Compose Dev Challenge week 3 for APAC time zone
 
 ## :bulb: Motivation and Context
-![Challenge Design](https://github.com/android/android-dev-challenge-compose/blob/assets/Bloom.zip)
+[Challenge Design](https://github.com/android/android-dev-challenge-compose/blob/assets/Bloom.zip)
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
